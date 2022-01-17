@@ -4,9 +4,9 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="example-package-YOUR-USERNAME-HERE",
+    name="TGV project",
     version="0.0.1",
-    author="Example Author",
+    author="Andde Etienne",
     author_email="author@example.com",
     description="A small example package",
     long_description=long_description,
