@@ -7,7 +7,7 @@ import requests
 API_URL = 'https://data.sncf.com/api/records/1.0'
 
 
-def generate_search_url(date, origine, destination):
+def generate_search_url(date: str, origine: str, destination: str) -> str:
     """
     Scrapping data from API_URL.
     """
@@ -17,7 +17,7 @@ def generate_search_url(date, origine, destination):
     return new_url
 
 
-def scrap_trip(date, origine, destination):
+def scrap_trip(date: str, origine: str, destination: str) -> dict:
     """
     Making the HTTP request.
     """
